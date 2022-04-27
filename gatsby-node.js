@@ -21,6 +21,9 @@ exports.createPages = ({ graphql, actions }) => {
                 collection
                 slug
               }
+              frontmatter {
+                date
+              }
             }
           }
         }
